@@ -1,5 +1,5 @@
 package com.example.app_rest_api.product.support.exception;
-
+//By Alejandro Jimenez
 public class ProductNotFoundException extends RuntimeException {
     public ProductNotFoundException(Long id) {
         super(String.format("Product with %d not found", id));

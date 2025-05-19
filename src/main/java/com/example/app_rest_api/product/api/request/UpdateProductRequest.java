@@ -1,5 +1,5 @@
 package com.example.app_rest_api.product.api.request;
-
+//By Alejandro Jimenez
 import com.fasterxml.jackson.annotation.JsonCreator;
 
 public class UpdateProductRequest  extends ProductRequest{

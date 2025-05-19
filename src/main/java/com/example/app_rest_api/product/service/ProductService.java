@@ -1,24 +1,24 @@
 package com.example.app_rest_api.product.service;
-
+//By Alejandro Jimenez
 import com.example.app_rest_api.product.api.request.UpdateProductRequest;
 import com.example.app_rest_api.product.support.ProductExceptionSupplier;
 import org.springframework.stereotype.Service;
 import com.example.app_rest_api.product.api.request.ProductRequest;
 import com.example.app_rest_api.product.api.response.ProductResponse;
 import com.example.app_rest_api.product.domain.Product;
-import com.example.app_rest_api.product.repository.ProductRepository;
+import com.example.app_rest_api.product.repository.OldProductRepository;
 import com.example.app_rest_api.product.support.ProductMapper;
-
+//By Alejandro Jimenez
 import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
 public class ProductService {
-    private final ProductRepository productRepository;
+    private final OldProductRepository productRepository;
 
     private final ProductMapper productMapper;
 
-    public ProductService(ProductRepository productRepository, ProductMapper productMapper) {
+    public ProductService(OldProductRepository productRepository, ProductMapper productMapper) {
         this.productRepository = productRepository;
         this.productMapper = productMapper;
     }
