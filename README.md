@@ -41,3 +41,28 @@ Postman or Swagger.
     mvn spring-boot:run
 3. App will start in:
     http://localhost:8080
+
+## Print Screens
+1. Run app
+   
+    <img src="printscreens/Screenshot 2025-05-21 101751.png" alt="run app" width="700"/>
+
+2. Test app
+
+    <img src="printscreens/Screenshot 2025-05-21 102028.png" alt="run app" width="700"/>
+
+3. SWAGGER UI
+
+   <img src="printscreens/Screenshot 2025-05-21 104852.png" alt="run app" width="700"/>
+
+4. Methods and exception
+
+    <img src="printscreens/Screenshot 2025-05-21 105207.png" alt="run app" width="700"/>
+    <img src="printscreens/Screenshot 2025-05-21 104949.png" alt="run app" width="700"/>
+    <img src="printscreens/Screenshot 2025-05-21 105108.png" alt="run app" width="700"/>
+    <img src="printscreens/Screenshot 2025-05-21 105140.png" alt="run app" width="700"/>
+
+5. Database
+   
+    <img src="printscreens/Screenshot 2025-05-21 105838.png" alt="run app" width="700"/>
+    <img src="printscreens/Screenshot 2025-05-21 110936.png" alt="run app" width="700"/>
